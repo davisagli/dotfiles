@@ -27,3 +27,8 @@ export PATH=/opt/local/bin:${PATH}
 
 # use joe as editor
 export EDITOR=joe
+
+# misc aliases
+export PSVN="https://svn.plone.org/svn/plone"
+export CSVN="https://svn.plone.org/svn/collective"
+alias svnext="svn ps svn:externals -F EXTERNALS.txt ."
