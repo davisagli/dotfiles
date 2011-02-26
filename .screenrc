@@ -1,0 +1,3 @@
+# make sure backspace behaves correctly
+bindkey -d ^? stuff ^H
+bindkey -d ^@ stuff ^H
