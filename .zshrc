@@ -23,7 +23,7 @@ export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
 
 # add to PATH
-export PATH=/opt/local/bin:${PATH}
+export PATH=/Users/davidg/src/python/python-2.6/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:${PATH}
 
 # use joe as editor
 export EDITOR=joe
@@ -32,3 +32,6 @@ export EDITOR=joe
 export PSVN="https://svn.plone.org/svn/plone"
 export CSVN="https://svn.plone.org/svn/collective"
 alias svnext="svn ps svn:externals -F EXTERNALS.txt ."
+
+# disable resource forks in archives on OS X
+export COPYFILE_DISABLE=true
