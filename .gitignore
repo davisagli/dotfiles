@@ -5,6 +5,7 @@
 !.inputrc
 !.screenrc
 !.zshrc
+!setup_system.sh
 
 .svn
 .DS_Store
