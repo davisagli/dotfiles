@@ -1,3 +1,11 @@
+*
+!.buildout
+!.gitconfig
+!.gitignore
+!.inputrc
+!.screenrc
+!.zshrc
+
 .svn
 .DS_Store
 *.pyc
