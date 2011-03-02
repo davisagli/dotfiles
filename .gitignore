@@ -4,6 +4,7 @@
 !.gitignore
 !.inputrc
 !.mkrelease
+!.pypirc
 !.screenrc
 !.zshrc
 !setup_system.sh
