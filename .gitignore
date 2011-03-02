@@ -3,6 +3,7 @@
 !.gitconfig
 !.gitignore
 !.inputrc
+!.mkrelease
 !.screenrc
 !.zshrc
 !setup_system.sh

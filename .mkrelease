@@ -1,0 +1,8 @@
+[defaults]
+distbase =
+distdefault = pypi
+
+[aliases]
+plone =
+  pypi
+  ploneorg
