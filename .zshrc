@@ -9,7 +9,7 @@ prompt walters
 
 # use ctrl+left/right arrows to jump between words
 bindkey "\e[5C" forward-word
-bindkey "\e[5D" backward-word
+#bindkey "\e[5D" backward-word
 
 # use up/down arrows to autocomplete command from history
 bindkey "\e[B" history-search-forward
@@ -23,7 +23,7 @@ export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
 
 # add to PATH
-export PATH=/Users/davidg/src/python/python-2.6/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:${PATH}
+export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:${PATH}:/usr/local/src/python/python-2.7/bin
 
 # use joe as editor
 export EDITOR=joe
